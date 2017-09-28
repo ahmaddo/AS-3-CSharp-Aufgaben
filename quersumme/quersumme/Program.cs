@@ -14,16 +14,12 @@ namespace quersumme
 	{
 		public static void Main(string[] args)
 		{
-            
+            int zahl = 247;
             getNumbersWithCrossSum15();
 
-            int zahl = 5759;
-
-			zahl = calcCrosSum(zahl);
-
-			Console.WriteLine(zahl);
-
-            Console.WriteLine(zw(47));
+            Console.WriteLine(zahl);
+            zahl = calcCrosSum(zahl);
+            Console.WriteLine(zw(zahl));
 
             Console.ReadKey(true);
         }
@@ -56,57 +52,52 @@ namespace quersumme
 		{
             Console.WriteLine("======Numbers with 15 as cross sum======");
 
+            //die `for` schleife um die Methode auf alle nummeern zu verwenden 
             for (int i=0; i <= 1000; i++) {
+
+                //die quersumme Methode wird nur auf zweistellige Nummern verwnedet
 				if (i > 9) {
                     int crossSum = calcCrosSum(i);
-
+                    //die Quersummer wird in der Konsole gezeigt, falls sie gleich 15 ist
                     if (crossSum == 15) {
 						Console.WriteLine(i);
 					}
 				}
 			}
-
             Console.WriteLine("======================================");
         }
 
         //Aufgabe 3
         public static void getNumbersWithCrossSumMultipleSeven()
         {
+            Console.WriteLine("======Numbers with ´7´ as cross sum======");
+
+            //die `for` schleife um die Methode auf alle nummeern zu verwenden 
             for (int i = 0; i <= 1000; i++)
             {
+
+                //die quersumme Methode wird nur auf zweistellige Nummern verwnedet
                 if (i > 9)
                 {
-                    int currentNumber = i;
-                    int moduloRest = i % 10;
-                    i = i - moduloRest;
-                    int result = i / 10;
-
-                    if (result % 7 == 0)
+                    int crossSum = calcCrosSum(i);
+                    //die Quersummer wird in der Konsole gezeigt, falls sie gleich 7 ist
+                    if (crossSum == 7)
                     {
-                        Console.WriteLine(currentNumber);
+                        Console.WriteLine(i);
                     }
                 }
-
-
             }
+            Console.WriteLine("======================================");
         }
 
         //Aufgabe 3
 
-        /// <summary>
-        /// Berechnet die Prüfsumme von <paramref name="zahl"/>
-        /// </summary>
-        /// <param name="zahl">
-        /// Zahl von der die Prüfsumme berechnet werden soll
-        /// </param>
-        /// <returns>
-        /// Prüfsumme von <paramref name="zahl"/>
-        /// </returns>
-
         public static int zw(int number)
         {
+            //numer variable mit die Quersummer überschreiben
             number = calcCrosSum(number);
 
+            //die methode nochmal nochmal benutzen, fass die quersumme 
             if (number > 10)
             {
                 number = zw(number);
