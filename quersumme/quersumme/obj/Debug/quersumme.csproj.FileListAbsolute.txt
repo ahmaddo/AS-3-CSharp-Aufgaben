@@ -10,3 +10,9 @@ C:\Users\user\Desktop\C-SHARP\quersumme\quersumme\bin\Debug\quersumme.pdb
 C:\Users\user\Desktop\C-SHARP\quersumme\quersumme\obj\Debug\quersumme.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\C-SHARP\quersumme\quersumme\obj\Debug\quersumme.exe
 C:\Users\user\Desktop\C-SHARP\quersumme\quersumme\obj\Debug\quersumme.pdb
+C:\Users\Ark\Documents\GitHub\AS-3-CSharp-Aufgaben\quersumme\quersumme\bin\Debug\quersumme.exe.config
+C:\Users\Ark\Documents\GitHub\AS-3-CSharp-Aufgaben\quersumme\quersumme\bin\Debug\quersumme.exe
+C:\Users\Ark\Documents\GitHub\AS-3-CSharp-Aufgaben\quersumme\quersumme\bin\Debug\quersumme.pdb
+C:\Users\Ark\Documents\GitHub\AS-3-CSharp-Aufgaben\quersumme\quersumme\obj\Debug\quersumme.csprojResolveAssemblyReference.cache
+C:\Users\Ark\Documents\GitHub\AS-3-CSharp-Aufgaben\quersumme\quersumme\obj\Debug\quersumme.exe
+C:\Users\Ark\Documents\GitHub\AS-3-CSharp-Aufgaben\quersumme\quersumme\obj\Debug\quersumme.pdb
